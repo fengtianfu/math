@@ -325,7 +325,7 @@ knitr::include_url("images/SSS.html")
 knitr::include_graphics("images/ASA.svg")
 ```
 
-```{proof}
+
 如图所示：$\Delta$ABC 和　$\Delta$DEF
 
 以知：$\angle$B = $\angle$E
@@ -335,6 +335,10 @@ $\angle$ACB = $\angle$F
 BC = EF
 
 求证：$\Delta$ABC$\cong$\Delta$DEF
+
+
+```{proof}
+
 
 ```
 
