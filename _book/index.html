@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="数学" />
+<meta property="og:type" content="book" />
+
+
+<meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook" />
+
+
+<meta name="author" content="zhang" />
+
+<meta name="date" content="2020-01-20" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" type="text/javascript"></script>
+
+<meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook">
+
+<title>数学</title>
+
+<script src="assets/jquery-1.11.3/jquery.min.js"></script>
+<script src="assets/elevate-section-attrs-2.0/elevate-section-attrs.js"></script>
+<link href="assets/tufte-css-2015.12.29/tufte-fonts.css" rel="stylesheet" />
+<link href="assets/tufte-css-2015.12.29/tufte-background.css" rel="stylesheet" />
+<link href="assets/tufte-css-2015.12.29/tufte-italics.css" rel="stylesheet" />
+<link href="assets/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="toc.css" type="text/css" />
+
+</head>
+
+<body>
+
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#preface">Preface</a>
+<ul>
+<li><a href="index.html#欧几里得几何的演绎基础"><span class="toc-section-number">0.1</span> 欧几里得几何的演绎基础．</a></li>
+<li><a href="index.html#定理"><span class="toc-section-number">0.2</span> 定理</a></li>
+</ul></li>
+<li><a href="线性方程.html#线性方程"><span class="toc-section-number">1</span> 线性方程</a></li>
+<li><a href="斜率.html#斜率"><span class="toc-section-number">2</span> 斜率</a></li>
+<li><a href="直线方程的各种形式.html#直线方程的各种形式"><span class="toc-section-number">3</span> 直线方程的各种形式</a>
+<ul>
+<li><a href="直线方程的各种形式.html#两点形式"><span class="toc-section-number">3.1</span> 两点形式</a></li>
+<li><a href="直线方程的各种形式.html#斜率点形式"><span class="toc-section-number">3.2</span> 斜率—点形式</a></li>
+<li><a href="直线方程的各种形式.html#斜率截距形式"><span class="toc-section-number">3.3</span> 斜率－截距形式</a></li>
+<li><a href="直线方程的各种形式.html#交点形式"><span class="toc-section-number">3.4</span> 交点形式</a></li>
+<li><a href="直线方程的各种形式.html#解析几何与欧几里得几何"><span class="toc-section-number">3.5</span> 解析几何与欧几里得几何</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="header">
+<h1 class="title">数学</h1>
+<h4 class="author"><em>zhang</em></h4>
+<h4 class="date"><em>2020-01-20</em></h4>
+</div>
+<div id="preface" class="section level1">
+<h1 class="unnumbered" number="">Preface</h1>
+<p>数学的学习，我认为最重要的不是＂学＂，而是说服你自己，我到底可以相信这些定理吗？在多大程度上，他们是成立的？当你写下数学符号的时候，需要注意你引用这些定理的前提条件．盲目的使用定理会让你失去学习数学最重要的灵魂－－－逻辑．</p>
+<p>如果每一个问题，都去追寻到源泉，这是不现实的．首先，我们也许暂时没法理解，所以我们需要把和这个问题相关的定理暂时放在一边，再次，如果每次证明都要寻根索源，那证明将显得非常臃肿，反而把要证明的问题冲淡了．所以，我在开篇这里，首先把文中需要的用到的定理在这里先证明，以便于后面直接引用，这和欧几里得几何的方式是一样的．</p>
+<div id="欧几里得几何的演绎基础" class="section level2">
+<h2 number="0.1"><span class="header-section-number">0.1</span> 欧几里得几何的演绎基础．</h2>
+<p>这里所谓的＂基础＂，是指无需证明，你只能接受的前提．这些前提的改变，会改变整个定理的面貌．这个基础，包含了定义，公设，公理．</p>
+<p>定义，公理，公设，从某种方面来看，都是一样的，他们都是假设，但你要接受这些为真．我想强调一点，<em>以后在使用欧几里得定理的时候，我们默认了这些定义，公理，公设</em> ，如果以后我们碰到的问题是和这些前提矛盾的，我们将使用新的假设，那么有些欧几里得的定理就可能不适用了．</p>
+<p>定义</p>
+<pre><code>1. 点
+2. 直线
+3. 线段
+4. 平面
+5. 圆</code></pre>
+<p>欧几里得平面几何的五条公理（公设）是：</p>
+<pre><code>1. 从一点向另一点可以引一条直线。
+2. 任意线段能无限延伸成一条直线。
+3. 给定任意线段，可以以其一个端点作为圆心，该线段作为半径作一个圆。
+4. 所有直角都相等。
+5. 若两条直线都与第三条直线相交，并且在同一边的内角之和小于两个直角，则这两条直线在这一边必定相交。</code></pre>
+<p>欧几里得还提出了五个一般概念，也可以作为公理。</p>
+<pre><code>1. 与同一事物相等的事物相等。
+2. 相等的事物加上相等的事物仍然相等。
+3. 相等的事物减去相等的事物仍然相等。
+4. 一个事物与另一事物重合，则它们相等。
+5. 整体大于局部。</code></pre>
+</div>
+<div id="定理" class="section level2">
+<h2 number="0.2"><span class="header-section-number">0.2</span> 定理</h2>
+<p>所谓定理，就是依据上面这些假设，推理出来的命题．我们可以用上面的假设，来推理一个命题为真或者为假．</p>
+<p>平行线的性质</p>
+<p>严格的说，这一条不算定理，因为它其实就是公设里面第５条的等价形式．如下图所示：</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="index.html#cb4-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;images/parallel.png&quot;</span>)</span></code></pre></div>
+<div class="figure fullwidth"><span id="fig:parallel"></span>
+<img src="images/parallel.png" alt="平行线"  />
+<p class="caption marginnote shownote">
+Figure 1: 平行线
+</p>
+</div>
+<p>符号说明，<span class="math inline">\(\pi\)</span>表示两个直角的和．</p>
+<p>根据公设5</p>
+<p><span class="math inline">\(\angle\alpha\)</span> + <span class="math inline">\(\angle\beta\)</span> &lt; <span class="math inline">\(\pi\)</span>，那么：</p>
+<p>直线AC和直线AB相交</p>
+<p>若<span class="math inline">\(\angle\varepsilon\)</span> + <span class="math inline">\(\angle\gamma\)</span> = <span class="math inline">\(\pi\)</span>, 那么：</p>
+<p>直线AB和直线FG不相交</p>
+<p>因为如果直线AB和直线FG相交</p>
+<p>那么根据公设5：</p>
+<p><span class="math inline">\(\angle\varepsilon\)</span> + <span class="math inline">\(\angle\gamma\)</span> &lt; <span class="math inline">\(\pi\)</span> 也成立．</p>
+<p>根据前提，<span class="math inline">\(\angle\varepsilon\)</span> + <span class="math inline">\(\angle\gamma\)</span> = <span class="math inline">\(\pi\)</span>也成立．</p>
+<p>根据公理5，整体大于局部．</p>
+<p>两个角度的和要么小于<span class="math inline">\(\pi\)</span>，要么等于<span class="math inline">\(\pi\)</span>，只能是其中之一．否则，整体将等于局部．</p>
+<p>所以，假设AB和FG相交不成立．AB和FG必平行．</p>
+<p>这里有一个很有趣的问题，我们看看以下的证明有什么问题．</p>
+<p>若<span class="math inline">\(\angle\varepsilon\)</span> + <span class="math inline">\(\angle\gamma\)</span> = <span class="math inline">\(\pi\)</span>, 那么：</p>
+<p>直线AB和直线FG不相交</p>
+<p>因为如果直线AB和直线FG相交</p>
+<p>那么根据公设5：</p>
+<p><span class="math inline">\(\angle\varepsilon\)</span> + <span class="math inline">\(\angle\gamma\)</span> &lt; <span class="math inline">\(\pi\)</span>．</p>
+<p>这和<span class="math inline">\(\angle\varepsilon\)</span> + <span class="math inline">\(\angle\gamma\)</span> = <span class="math inline">\(\pi\)</span>相矛盾．</p>
+<p>所以，AB和FG必平行</p>
+<p>这里的问题是，注意看公设5，它只是说了角度小于<span class="math inline">\(\pi\)</span>会导致相交，并没有说，相交会导致角度和小于<span class="math inline">\(\pi\)</span>，因此，<em>根据公设5： <span class="math inline">\(\angle\varepsilon\)</span> + <span class="math inline">\(\angle\gamma\)</span> &lt; <span class="math inline">\(\pi\)</span>．</em>　这个是错误的．</p>
+<p>顺便推出对顶角相等，同位角相等．</p>
+<p>根据直角和的定义：</p>
+<p><span class="math inline">\(\varepsilon + \zeta = \pi\)</span></p>
+<p><span class="math inline">\(\delta + \zeta = \pi\)</span></p>
+<p>根据等量减等量依然相等</p>
+<p><span class="math inline">\(\varepsilon = \pi - \zeta\)</span></p>
+<p><span class="math inline">\(\delta = \pi - \zeta\)</span></p>
+<p>所以</p>
+<p><span class="math inline">\(\varepsilon = \delta\)</span></p>
+<p>依据平行线的性质：</p>
+<p><span class="math inline">\(\varepsilon + \gamma = \pi\)</span></p>
+<p>依据直角和的定义：</p>
+<p><span class="math inline">\(\gamma + \beta = \pi\)</span></p>
+<p>同样的方式可得：</p>
+<p><span class="math inline">\(\varepsilon = \beta\)</span></p>
+<p><span class="math inline">\(\beta\)</span>和<span class="math inline">\(\eta\)</span>是对顶角</p>
+<p><span class="math inline">\(\beta\)</span> = <span class="math inline">\(\eta\)</span></p>
+<p><span class="math inline">\(\varepsilon\)</span> = <span class="math inline">\(\eta\)</span></p>
+
+<div class="theorem">
+<p><span id="thm:icsosceles" class="theorem"><strong>Theorem 1  (等腰三角形)  </strong></span>
+如果一个三角形的两条边相等，那么他们对应的角也相等</p>
+</div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="index.html#cb5-1"></a>knitr<span class="op">::</span><span class="kw">include_url</span>(<span class="st">&quot;images/isosceles_triangle.html&quot;</span>)</span></code></pre></div>
+<iframe src="images/isosceles_triangle.html" width="672" height="400px">
+</iframe>
+<p>已知：<span class="math inline">\(\Delta\)</span>AEB, AE = BE</p>
+<p>求证：<span class="math inline">\(\angle\)</span> A = <span class="math inline">\(\angle\)</span> B</p>
+
+<div class="proof">
+<p> <span class="proof"><em>Proof. </em></span> 翻转<span class="math inline">\(\Delta\)</span>AEB,
+形成一个新的三角形，让这个新的三角形的E点和原来的三角形E点重合，因为AE = BE, 我们可以让B点和A点重合，因为两个三角形的<span class="math inline">\(\angle\)</span>E相等，新三角形的A点会和原来的三角形的B点重合，三角形的三个顶点重合，那么这两个三角形完全重合，根据公理4, 他们相等．因此，<span class="math inline">\(\angle\)</span>A = <span class="math inline">\(\angle\)</span>B</p>
+</div>
+
+<div class="theorem">
+<p><span id="thm:bigangle" class="theorem"><strong>Theorem 2  (大边对大角)  </strong></span>三角形大边对大角</p>
+</div>
+<p>已知：BC &gt; BA</p>
+<p>求证：<span class="math inline">\(\angle\)</span> BAC &gt; <span class="math inline">\(\angle\)</span> C</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="index.html#cb6-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;images/big_small_angle.png&quot;</span>)</span></code></pre></div>
+<div class="figure fullwidth"><span id="fig:bsangle"></span>
+<img src="images/big_small_angle.png" alt="角边关系"  />
+<p class="caption marginnote shownote">
+Figure 2: 角边关系
+</p>
+</div>
+<p><label for="tufte-mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-1" class="margin-toggle"><span class="marginnote"><span style="display: block;">证明外角大于内角</span></span></p>
+
+<div class="proof">
+<p> <span class="proof"><em>Proof. </em></span> 如图： 在BC上截取一点D，使得BD = BA</p>
+<p>根据定理<a href="index.html#thm:icsosceles">1</a>,</p>
+<p><span class="math inline">\(\angle\)</span>BAD = <span class="math inline">\(\angle\)</span>BDA</p>
+<p>根据外角大于内角(有待证明在前面)</p>
+<p><span class="math inline">\(\angle\)</span>BDA &gt; <span class="math inline">\(\angle\)</span>C</p>
+<p>根据公理５</p>
+<p><span class="math inline">\(\angle\)</span>BAC &gt; <span class="math inline">\(\angle\)</span>BDA</p>
+<p>因此</p>
+<p><span class="math inline">\(\angle\)</span>BAC &gt; <span class="math inline">\(\angle\)</span>C</p>
+</div>
+
+<div class="lemma">
+<p><span id="lem:angleside" class="lemma"><strong>Lemma 1  (大角对大边)  </strong></span>在一个三角形中，如果一个角大于另一个角，那么大角对应的边也大于小角对应的边</p>
+</div>
+<p>以知： <span class="math inline">\(\angle\)</span>BAC &gt; <span class="math inline">\(\angle\)</span>C</p>
+<p>求证：BC &gt; BA</p>
+<p><label for="tufte-mn-2" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-2" class="margin-toggle"><span class="marginnote"><span style="display: block;">想把建立图片的联系，发现一定要给图片命名，只是给标签不行．</span></span></p>
+
+<div class="proof">
+<p> <span class="proof"><em>Proof. </em></span> 
+如上图 <a href="index.html#fig:bsangle">2</a></p>
+<p><span class="math inline">\(\angle\)</span>BAC &gt; <span class="math inline">\(\angle\)</span>C</p>
+<p>若BC <span class="math inline">\(\leq\)</span> BA</p>
+<p>BC &lt; BA 则：</p>
+<p>根据定理 <a href="index.html#thm:bigangle">2</a></p>
+<p><span class="math inline">\(\angle\)</span>BAC &lt; <span class="math inline">\(\angle\)</span>C</p>
+<p>若 BD = BA</p>
+<p>根据定理 <a href="index.html#thm:icsosceles">1</a></p>
+<p><span class="math inline">\(\angle\)</span>BAC = <span class="math inline">\(\angle\)</span>C</p>
+<p>因此，若 BC <span class="math inline">\(\leq\)</span> BA，那么：</p>
+<p><span class="math inline">\(\angle\)</span>BAC <span class="math inline">\(\leq\)</span> <span class="math inline">\(\angle\)</span>C</p>
+<p>这和<span class="math inline">\(\angle\)</span>BAC &gt; <span class="math inline">\(\angle\)</span>C 相矛盾</p>
+<p>故必有：</p>
+<p>BC &gt; BA</p>
+</div>
+<p>这个证明用了反证法，以条件为真，得出结果和前提矛盾，因为这是一一对应的关系．不是一一对应关系，那该证明可能很复杂．比如</p>
+
+<div class="theorem">
+<p><span id="thm:SAS" class="theorem"><strong>Theorem 3  (SAS定理)  </strong></span>若两个三角形的两条边相等，他们对应的夹角也相等，那么这两个三角形全等．</p>
+</div>
+<p>如图：</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="index.html#cb7-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;images/SAS.png&quot;</span>)</span></code></pre></div>
+<p><img src="images/SAS.png"  /></p>
+
+<div class="proof">
+<p> <span class="proof"><em>Proof. </em></span> 如上图：</p>
+<p>给定<span class="math inline">\(\Delta\)</span>ABC的两条边, AB和BC，还有一个夹角<span class="math inline">\(\alpha\)</span>，只能作出一个三角形．</p>
+<p>那么，给定同要的条件，我们在其他地方画的三角形不过是这个三角形的复制品.</p>
+<p>证毕</p>
+<p>你可以想象，在给定的条件下，同时画两个三角形，你把这两个三角形的对应边和角
+重合起来．比如<span class="math inline">\(\Delta\)</span>ABC和<span class="math inline">\(\Delta\)</span><span class="math inline">\(A{\prime}B{\prime}C{\prime}\)</span>，AB和<span class="math inline">\(A{\prime}B{\prime}\)</span>重合，
+因为<span class="math inline">\(\alpha\)</span> = <span class="math inline">\(\alpha\)</span>，BC和<span class="math inline">\(B{\prime}C{\prime}\)</span>也可以重合，两个三角形完全重合</p>
+<p>故：<span class="math inline">\(\Delta\)</span>ABC<span class="math inline">\(\cong\)</span><span class="math inline">\(\Delta\)</span><span class="math inline">\(A{\prime}B{\prime}C{\prime}\)</span></p>
+</div>
+
+<div class="theorem">
+<p><span id="thm:SSS" class="theorem"><strong>Theorem 4  (SSS定理)  </strong></span>如果两个三角形的三条边相等，那么这两个三角形全等．</p>
+</div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="index.html#cb8-1"></a>knitr<span class="op">::</span><span class="kw">include_url</span>(<span class="st">&quot;images/SSS.html&quot;</span>)</span></code></pre></div>
+<iframe src="images/SSS.html" width="672" height="400px">
+</iframe>
+
+<div class="proof">
+<p> <span class="proof"><em>Proof. </em></span> 如图：给定三角形的三条边，只能作出两个三角形，由于圆的对称性，如果把下面的半圆以两个圆的圆心的连线为准线，向上翻转，那么两个圆各自和各自的上半圆重合，因此他们的交点也重合，故，两个三角形重合．因此，给定三角形的三边，只能作出一个三角形，因此，三边相等的三角形必重合．</p>
+<p>也可以用SAS定理来证明SSS定理</p>
+<p>如上图</p>
+<p>可以用等腰三角形的性质得到两条边的夹角相等，加上条件，两条边是相等的</p>
+<p>根据SAS定理</p>
+<p>两个三角形全等．</p>
+</div>
+
+<div class="theorem">
+<p><span id="thm:ASA" class="theorem"><strong>Theorem 5  (ASA定理)  </strong></span>如果两个三角形的两个角相等，他们所夹的边也想等，那么这两个三角形全等．</p>
+</div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="index.html#cb9-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;images/ASA.svg&quot;</span>)</span></code></pre></div>
+<p><img src="images/ASA.svg"  /></p>
+
+<div class="proof">
+<p> <span class="proof"><em>Proof. </em></span> 如图所示：<span class="math inline">\(\Delta\)</span>ABC 和　<span class="math inline">\(\Delta\)</span>DEF</p>
+<p>以知：<span class="math inline">\(\angle\)</span>B = <span class="math inline">\(\angle\)</span>E</p>
+<p><span class="math inline">\(\angle\)</span>ACB = <span class="math inline">\(\angle\)</span>F</p>
+<p>BC = EF</p>
+<p>求证：<span class="math inline">\(\Delta\)</span>ABC<span class="math inline">\(\cong\)</span>$DEF</p>
+</div>
+
+</div>
+</div>
+<p style="text-align: center;">
+<a href="线性方程.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+
+</body>
+</html>
