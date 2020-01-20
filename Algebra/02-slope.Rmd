@@ -1,0 +1,113 @@
+
+
+
+
+# 斜率
+
+从几何上看，我们说直线方程（二元一次方程）有一个恒定的斜率，也就是说，给定一个二元一次方程或者给定一条直线，那么他们的斜率也固定了．
+
+```{definition, label = slope, name = "斜率"}
+斜率是从一个点$p_1$到另一个点$p_2$，垂直升高的距离除以水平增加的距离．
+$斜率 = \frac{y的变化量}{x的变化量}$
+
+$m = \frac{\Delta{y}}{\Delta{x}}$
+
+```
+
+直线方程$Ax + By + C = 0$
+
+设 $B \neq 0$
+
+$y = \frac{-A}{B}x + \frac{-C}{B}$
+
+设该直线上有两个点$p_1(x_1, y_1), p_2(x_2, y_2)$，那么：
+
+\begin{align}
+\Delta{y} &= y_2 - y_1 \\
+\Delta{x} &= x_2 - x_1 \\
+y_1 &= \frac{-A}{B}x_1 + \frac{-C}{B} \\
+y_2 &= \frac{-A}{B}x_2 + \frac{-C}{B} \\
+y_2 - y_1 &= \frac{-A}{B}(x_2 - x_1)  \\
+\Delta{y} &= \frac{-A}{B}\Delta{x} \\
+\frac{\Delta{y}}{\Delta{x}} &= \frac{-A}{B}
+\end{align}
+
+```{marginfigure}
+$y = \frac{-A}{B}x + \frac{-C}{B}$
+
+$b = \frac{-C}{B}$
+
+$m = \frac{\Delta{y}}{\Delta{x}} = \frac{-A}{B}$
+
+```
+
+令$b = \frac{-C}{B}$
+
+得到直线方程的斜率形式：
+
+_观察一个方程，要问这个方程到底要告诉你什么？_ 
+
+$y = mx + b$
+
+* 观察这个斜率方程，我们可以看出，斜率$m = \frac{-A}{B}$，那么斜率和C无关．
+
+* 同时，$m = \frac{-A}{B}$，说明斜率和你选取的点无关，只是和系数A和B有关．系数A和B确定了，m也就确定了．
+
+* 斜率与直线,水平线（x轴的平行线）夹角$\varphi$的$\tan\varphi$值相等．$m = \tan\varphi$
+* 若$x = 0$, 那么$y = b$, 这个点(0, b)叫做截距．
+
+
+
+两条直线
+$$l_1:y = m_1x + b_1$$ 
+$$l_2:y = m_2x + b_2$$
+
+若：$m_1 = m_2$ 
+
+则:$l_1$与x轴的夹角$\alpha$，$l_2$与x轴夹角$\beta$有，$\tan\alpha = \tan\beta$, $\alpha$ = $\beta$
+
+我们通过$m = \tan\alpha$，在图形上把斜率和夹角联系起来了．
+
+如果 $m_1 \neq m_2$，直线$l_1$与直线$l_2$夹角是多少？
+
+
+```{marginfigure}
+$$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
+$$\sin(\alpha - \beta) = \sin\alpha\cos\beta - \cos\alpha\sin\beta$$
+$$\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$$
+$$\cos(\alpha - \beta) = \cos\alpha\cos\beta + \sin\alpha\sin\beta$$
+$$\tan(\alpha + \beta) = \frac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta}$$
+$$\tan(\alpha - \beta) = \frac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta}$$
+```
+
+设：
+
+直线$l_1$的斜率为$m_1$, 与x轴的夹角为$\alpha$
+
+直线$l_2$的斜率为$m_2$, 与x轴的夹角为$\beta$
+
+$\alpha$ > $\beta$
+
+$l_1$与$l_2$的夹角为：$\theta$
+
+那么：
+
+$$\theta = \alpha - \beta$$
+$\tan\theta = \tan(\alpha - \beta) = \frac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta}$
+
+$$m_1 = \tan\alpha$$
+$$m_2 = \tan\beta$$
+
+$$\tan\theta = \tan(\alpha - \beta) = \frac{m_1 - m_2}{1 + m_1m_2}$$
+
+
+如果直线$l_1$与$l_2$垂直，那么
+
+
+$$\tan\theta = + \infty$$
+
+$$\frac{m_1 - m_2}{1 + m_1m_2} = + \infty$$
+
+$$ 1 + m_1m_2 = 0$$
+
+$$m_1 = - \frac{1}{m_2}$$
